@@ -7,12 +7,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/cuybot-company/cuyhub.github.io"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/cuybot-company/cuyhub.github.io/issues"
   },
-  "homepage": "",
+  "homepage": "https://cuybot-company.github.io/cuyhub.github.io/",
   "keywords": [
     "cuyhub community indonesia",
     "c2i",
@@ -55,7 +55,9 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/cuyhub.scss src/assets/css/cuyhub.css",
     "minify-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/cuyhub.scss src/assets/css/cuyhub.min.css --output-style compressed",
-    "map-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/cuyhub.scss src/assets/css/cuyhub.css --source-map true"
+    "map-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/cuyhub.scss src/assets/css/cuyhub.css --source-map true",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d deploy"
   },
   "eslintConfig": {
     "extends": [
