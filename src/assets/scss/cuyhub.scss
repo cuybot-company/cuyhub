@@ -1,0 +1,100 @@
+$asset-base-path: '../../../../assets' !default;
+
+// Core
+
+@import "cuyhub/custom/functions";
+@import "~bootstrap/scss/functions";
+
+@import "cuyhub/custom/variables";
+@import "~bootstrap/scss/variables";
+
+@import "cuyhub/custom/mixins";
+@import "~bootstrap/scss/mixins";
+
+// Bootstrap components
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/custom-forms";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+
+// Custom components
+
+@import "cuyhub/custom/alerts.scss";
+@import "cuyhub/custom/buttons.scss";
+@import "cuyhub/custom/dropdown.scss";
+@import "cuyhub/custom/footer.scss";
+@import "cuyhub/custom/forms.scss";
+@import "cuyhub/custom/images.scss";
+@import "cuyhub/custom/modal.scss";
+@import "cuyhub/custom/navbar.scss";
+@import "cuyhub/custom/type.scss";
+@import "cuyhub/custom/icons.scss";
+@import "cuyhub/custom/tables";
+@import "cuyhub/custom/checkboxes-radio";
+@import "cuyhub/custom/fixed-plugin";
+@import "cuyhub/custom/pagination.scss";
+@import "cuyhub/custom/misc.scss";
+@import "cuyhub/custom/rtl.scss";
+@import "cuyhub/custom/input-group.scss";
+@import "cuyhub/custom/example-pages.scss";
+@import "cuyhub/custom/progress.scss";
+@import "cuyhub/custom/badge.scss";
+@import "cuyhub/custom/pills.scss";
+@import "cuyhub/custom/tabs.scss";
+@import "cuyhub/custom/info-areas.scss";
+
+// Sections
+@import "cuyhub/custom/sections.scss";
+
+// Vendor / Plugins
+
+@import "cuyhub/custom/vendor/plugin-perfect-scrollbar.scss";
+@import "cuyhub/custom/vendor/plugin-animate-bootstrap-notify.scss";
+@import "cuyhub/custom/vendor/plugin-bootstrap-switch.scss";
+@import "cuyhub/custom/vendor/plugin-nouislider.scss";
+@import "cuyhub/custom/vendor/plugin-datetimepicker.scss";
+
+// Cards
+
+@import "cuyhub/custom/card";
+@import "cuyhub/custom/cards/card-chart";
+@import "cuyhub/custom/cards/card-map";
+@import "cuyhub/custom/cards/card-user";
+@import "cuyhub/custom/cards/card-task";
+@import "cuyhub/custom/cards/card-plain";
+@import "cuyhub/custom/cards/card-register";
+@import "cuyhub/custom/cards/card-stats";
+@import "cuyhub/custom/cards/card-chart";
+
+// React Differences
+
+@import "cuyhub/react/react-differences";
