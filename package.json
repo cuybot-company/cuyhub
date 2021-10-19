@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/cuybot-company/cuyhub.github.io/issues"
   },
-  "homepage": "https://cuybot-company.github.io/cuyhub.github.io/",
+  "homepage": "https://github.com/cuybot-company/cuyhub.github.io",
   "keywords": [
     "cuyhub community indonesia",
     "c2i",
@@ -57,7 +57,7 @@
     "minify-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/cuyhub.scss src/assets/css/cuyhub.min.css --output-style compressed",
     "map-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/cuyhub.scss src/assets/css/cuyhub.css --source-map true",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d deploy"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -76,5 +76,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
