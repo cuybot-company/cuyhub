@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cuyhub/static/css/main.9fa31fe5.chunk.css",
-    "main.js": "/cuyhub/static/js/main.832bcc8f.chunk.js",
-    "main.js.map": "/cuyhub/static/js/main.832bcc8f.chunk.js.map",
+    "main.css": "/cuyhub/static/css/main.71befb77.chunk.css",
+    "main.js": "/cuyhub/static/js/main.5a2f57ef.chunk.js",
+    "main.js.map": "/cuyhub/static/js/main.5a2f57ef.chunk.js.map",
     "runtime-main.js": "/cuyhub/static/js/runtime-main.7774e1aa.js",
     "runtime-main.js.map": "/cuyhub/static/js/runtime-main.7774e1aa.js.map",
     "static/js/2.13c05229.chunk.js": "/cuyhub/static/js/2.13c05229.chunk.js",
     "static/js/2.13c05229.chunk.js.map": "/cuyhub/static/js/2.13c05229.chunk.js.map",
     "index.html": "/cuyhub/index.html",
-    "static/css/main.9fa31fe5.chunk.css.map": "/cuyhub/static/css/main.9fa31fe5.chunk.css.map",
+    "static/css/main.71befb77.chunk.css.map": "/cuyhub/static/css/main.71befb77.chunk.css.map",
     "static/js/2.13c05229.chunk.js.LICENSE.txt": "/cuyhub/static/js/2.13c05229.chunk.js.LICENSE.txt",
     "static/media/bitcoin.png": "/cuyhub/static/media/bitcoin.47422bea.png",
     "static/media/blob.png": "/cuyhub/static/media/blob.e3950678.png",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.7774e1aa.js",
     "static/js/2.13c05229.chunk.js",
-    "static/css/main.9fa31fe5.chunk.css",
-    "static/js/main.832bcc8f.chunk.js"
+    "static/css/main.71befb77.chunk.css",
+    "static/js/main.5a2f57ef.chunk.js"
   ]
 }
