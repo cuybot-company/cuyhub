@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/cuybot-company/cuyhub/issues"
   },
-  "homepage": "https://cuybot-company.github.io/cuyhub/",
+  "homepage": ".",
   "keywords": [
     "cuyhub community indonesia",
     "c2i",
@@ -49,7 +49,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && copyfiles -f ./build/* ./docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
@@ -79,5 +79,6 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
-  }
+  },
+  "proxy": "http://localhost:3000"
 }
